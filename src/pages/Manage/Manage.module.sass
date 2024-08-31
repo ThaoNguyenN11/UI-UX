@@ -1,0 +1,98 @@
+.wrapper
+    color: var(--text-color)
+    font-weight: 500
+    width: 100%
+    height: 100%
+    display: flex
+    flex-direction: column
+    gap: 20px
+
+.banner
+    position: relative
+    width: 100%
+    height: 250px
+
+.banner-bg
+    position: absolute
+    width: 100%
+    height: 100%
+
+    img
+        width: 100%
+        height: 100%
+
+.banner-content
+    height: 100%
+    position: relative
+    display: flex
+    justify-content: space-between
+    align-items: center
+    z-index: 2
+    padding: 0 100px
+
+    .title
+        display: flex
+        flex-direction: column
+        align-items: flex-end
+        gap: 10px
+        color: #fff
+
+    .hl-bg
+        background: #fff
+        border-radius: 50px
+
+        img
+            width: 150px
+            margin: 10px 20px 0 20px
+
+.semester
+    display: flex
+    align-items: center
+    justify-content: flex-end
+    gap: 30px
+    cursor: pointer
+
+    .content
+        display: flex
+        align-items: center
+        gap: 10px
+        background: #fff
+        // box-shadow: 2px 2px 4px 0px rgba(15, 209, 134, 0.25)
+        border: solid 2px var(--text-color)
+        padding: 5px 10px
+        border-radius: 5px
+
+    .semester-selector
+        display: flex
+
+.goal
+    display: flex
+    gap: 20px
+    flex-direction: column
+
+.education
+    background: #FF885A
+    display: flex
+    border-radius: 20px
+    position: relative
+
+.skill
+    background: #37D99A
+    display: flex
+    border-radius: 20px
+    position: relative
+
+.exercise
+    background: #FFF7D9
+    display: flex
+    border-radius: 20px
+    position: relative
+
+.overlay-link
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    z-index: 10
+    background: rgba(0, 0, 0, 0)

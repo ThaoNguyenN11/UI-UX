@@ -1,0 +1,5 @@
+export { default as Manage } from './Manage'
+export { default as Education } from './Education'
+export { default as Skill } from './Skill'
+export { default as Exercise } from './Exercise'
+export { default as DetailTrack } from './DetailTrack'

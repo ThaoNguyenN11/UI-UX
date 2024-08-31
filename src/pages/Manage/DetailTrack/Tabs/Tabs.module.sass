@@ -1,0 +1,79 @@
+
+.bloc-tabs
+    display: flex
+
+.tabs
+    background: #fff
+    display: flex
+    width: 150px
+    height: 40px
+    justify-content: center
+    align-items: center
+    font-weight: 700
+    cursor: pointer
+    // border-radius: 10px
+
+    &.active
+        background: #0FD186
+        color: #fff
+
+.content
+    height: 365px
+    padding: 20px 20px 10px 20px
+    border-radius: 0 10px 10px 10px
+    background: var(--Green01, #CFF6E7)
+    box-shadow: 2px 2px 4px 0px rgba(15, 209, 134, 0.25)
+    display: none
+
+    .inner
+        height: 100%
+        display: flex
+        align-items: flex-start
+        gap: 20px
+
+        .inner-item
+            height: 100%
+            flex: 1
+
+    &.content-active
+        display: block
+
+.chart-wrapper
+    display: flex
+    width: 100%
+    height: 100%
+    padding: 30px
+    flex-direction: column
+    align-items: flex-start
+    gap: 10px
+    border-radius: 20px
+    background: #FFF
+    // box-shadow: 2px 2px 6px 0px rgba(7, 104, 67, 0.25)
+    box-shadow: 2px 2px 4px 0px rgba(15, 209, 134, 0.25)
+
+.rate
+    display: flex
+    flex-direction: column
+    align-items: center
+
+    .chart
+        width: 100%
+        display: flex
+        align-items: center
+        justify-content: space-around
+        margin-bottom: 20px
+        padding: 0 40px
+
+
+        .chart-content
+            height: 150px
+            width: 150px
+
+        .chart-note-item
+            display: flex
+            align-items: center
+            gap: 10px
+
+// .d-chart
+//     height: 300px
+//     width: 100%
